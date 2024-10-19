@@ -1,6 +1,7 @@
 # CSS Refresher Notes
 
 This is a quick refresher of CSS concepts compiled from various articles online. Contributions are always welcome :)
+s
 
 I have linked to most of the articles used, sorry if I missed any. Huge thanks to the community!
 
