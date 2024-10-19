@@ -1,6 +1,7 @@
 # W3SCHOOLS--HTML Tutorial-NOTES 
 ## Date 12/30/2020
 
+
 This repository summarizes the key things that I learned from the w3schools online HTML tutorials. 
 > Please see: https://www.w3schools.com/html/   for the sources of all the information contained herein. 
 

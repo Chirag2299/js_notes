@@ -2,6 +2,7 @@
 
 [Introduction](#introduction)
 
+
   1. [HTML Tags](#html-tags)
   2. [Web Browsers](#web-browsers)
   3. [HTML Page Structure](#html-page-structure)

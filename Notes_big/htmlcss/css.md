@@ -6,6 +6,7 @@ I have linked to most of the articles used, sorry if I missed any. Huge thanks t
 
 **Table of Contents**
 
+
 - [Positioning](#positioning)
 - [Display](#display)
 - [Floats](#floats)
