@@ -1,68 +1,68 @@
- # Chapter 1 and 2
-# # input for string 
-# name = input("Name please: ")
-# name2 = input("Second Name please: ")
-# sum = name + " " + name2  # Concatenating both names with a space
-# print(sum[2:])
+ Chapter 1 and 2
+# input for string 
+name = input("Name please: ")
+name2 = input("Second Name please: ")
+sum = name + " " + name2  # Concatenating both names with a space
+print(sum[2:])
 
 
-# print ("this is the first line\n\n\nthis is the second line")
-# print()
+print ("this is the first line\n\n\nthis is the second line")
+print()
 
-# # input for integer
-# num1 = int(input("First number please: "))
-# num2 = int(input("Second number please: "))
-# result = num1 % num2  # Performing modulo operation
-# print(result)
+# input for integer
+num1 = int(input("First number please: "))
+num2 = int(input("Second number please: "))
+result = num1 % num2  # Performing modulo operation
+print(result)
 
-# indexing
-# str = "Api integration"
-# print(str[4:])
-# print(str.capitalize())
+indexing
+str = "Api integration"
+print(str[4:])
+print(str.capitalize())
 
-# INDEXING--2
-#         str= "testing\nABC"
-#         print(len(str),str,str[0] is "t")
+INDEXING--2
+        str= "testing\nABC"
+        print(len(str),str,str[0] is "t")
 
-# SLICING 
-#         print (str, str[2:9])
-#         print (str[0:len(str)])
+SLICING 
+        print (str, str[2:9])
+        print (str[0:len(str)])
 
-# String Functions 
-# str = "I am a coder."     ############
-#             str.endswith("er.") #returns true if string ends with substr 
-#             str.capitalize() #capitalizes 1st char 
-#             str.replace(old, new) #replaces all occurrences of old 
-# print(str.find("a") ) #returns 1st index of 1st occurrer / find("o")
-# print ( str.count("a") )#counts the occurrence of substr
+String Functions 
+str = "I am a coder."     ############
+            str.endswith("er.") #returns true if string ends with substr 
+            str.capitalize() #capitalizes 1st char 
+            str.replace(old, new) #replaces all occurrences of old 
+print(str.find("a") ) #returns 1st index of 1st occurrer / find("o")
+print ( str.count("a") )#counts the occurrence of substr
             
-# ###### Conditional Statements 
-# if-elif-else (SYNTAX)
+###### Conditional Statements 
+if-elif-else (SYNTAX)
                   
-# age = 33
-# if age >= 2200:
-#     print("age age aheyee")
-# elif age == 33:  # Use '==' for comparison
-#     print("munna bus")
-# else:
-#     print("mmmhmmm")
+age = 33
+if age >= 2200:
+    print("age age aheyee")
+elif age == 33:  # Use '==' for comparison
+    print("munna bus")
+else:
+    print("mmmhmmm")
     
-# Chapter 3&4
+Chapter 3&4
 
-# Tuples
+Tuples
 
-# Lists in Python 
-# A built-in data type that stores set of values 
-# It can store elements of different types (integer, float, string, etc.) 
-# marks = [87, 64, 33, 95, 76]   #marks[0], marks[1].. 
-# student = ["Karan", 85, "Delhi"] #student[0], student[1].. 
-# student[0] = "Arjun" #allowed in python 
-# len(student) #returns length
+Lists in Python 
+A built-in data type that stores set of values 
+It can store elements of different types (integer, float, string, etc.) 
+marks = [87, 64, 33, 95, 76]   #marks[0], marks[1].. 
+student = ["Karan", 85, "Delhi"] #student[0], student[1].. 
+student[0] = "Arjun" #allowed in python 
+len(student) #returns length
 
-# marks=[23,34,545,666,436]
-# print(marks[3:4])
+marks=[23,34,545,666,436]
+print(marks[3:4])
 
-# #### LIST 
+#### LIST 
 list = [2, 1, 33,44] 
         list.append(4) #adds one element at the end [2, 1, 3, 4] 
         list.sort() #sorts in ascending order [1, 2, 3] 
@@ -295,17 +295,7 @@ Class and instance attributes
         obj.attr
 
 
-
-
-
-
-
-
-
-
-
-
---------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------
 OOPS -2
 11111111111111 
 Del
@@ -455,12 +445,12 @@ car1 = toyotacar("prius","electric")
 print(car1.type)
 
 # 77777777777777
-# class method : A class method is bound to the class & receives the class as an implicit first argument. Note - static method can't access or modify class state & generally for utility.
-# class Student: 
-#        @classmethod #decorator 
-#        def college(cls): 
-#                    pass
-
+class method : A class method is bound to the class & receives the class as an implicit first argument. Note - static method can't access or modify class state & generally for utility.
+class Student: 
+       @classmethod #decorator 
+       def college(cls): 
+                   pass
+----------------------------------------------------
 class person:
         name="anonymous"
         
@@ -482,7 +472,7 @@ print(person.name)
 #         instancemethod(self)
 
 # 88888888888888888
-# property decorator: We use @property decorator on any method in the class to use the method as a property.
+property decorator: We use @property decorator on any method in the class to use the method as a property.
 
 class student:
         def __init__(self,phy,chem,math):
